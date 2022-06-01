@@ -1,0 +1,26 @@
+form{
+    display:flex;
+    flex-direction: column;
+    margin:2em;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input{
+    padding:1em;
+}
+
+.errores{
+    margin: 0em 0em 2em 0em;
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.btn3{
+    margin:1em 30em 0em 30em;
+    font-size: 1em;
+}

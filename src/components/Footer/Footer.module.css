@@ -1,0 +1,21 @@
+.footer_wrapper{
+    background-color: black;
+}
+
+.div_iconos{
+    text-align: center;
+    padding:2em;
+}
+
+.icons{
+    width:3%;
+    margin:0em 2em;
+}
+
+p{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 0em 0em 1em 0em;
+    margin-block-end: 0em;
+}
