@@ -50,14 +50,6 @@ button:hover{
     border-color: black;
     color:black;
     background-color: white;
-    
-    transition-property: background-color, color;
-    transition-duration: 1s;
-    transition-timing-function: ease-out;
-    -webkit-transition-property: background-color, color;
-    -webkit-transition-duration: 1s;
-    -o-transition-property: background-color, color;
-    -o-transition-duration: 1s;
 }
 
 .a_features{
