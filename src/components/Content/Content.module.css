@@ -17,13 +17,14 @@
 
 .title, .subtitle{
     font-family: 'OneDirection';
-    font-size: 5em;
+    font-size: 8em;
     position: absolute;
-    top: 0;
+    top:55%;
     left: 0;
     right: 0;
     bottom: 0;
     text-align: center;
+    color:white;
 }
 
 .subtitle, .subtitle2, .subtitle3{
@@ -45,13 +46,13 @@
 
 .more{
     font-family:'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     text-transform: uppercase;
     border:2px white solid;
     color: white;
-    background-color: #ba1734;
+    background-color: black;
     position: absolute;
-    top:85%;
+    top:87%;
     left:45%;
     margin: auto;
     text-align: center;
@@ -61,19 +62,15 @@
 }
 
 .more:hover{
-    border-color: #ba1734;
-    color:#ba1734;
+    border-color: black;
+    color: black;
     background-color: white;
 
     transition-property: background-color, color;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-out;
     -webkit-transition-property: background-color, color;
-    -webkit-transition-duration: 1s;
+    -webkit-transition-duration: 0.5s;
     -o-transition-property: background-color, color;
-    -o-transition-duration: 1s;
-}
-
-.banda{
-    background-color: #DEE4ED;
+    -o-transition-duration: 0.5s;
 }

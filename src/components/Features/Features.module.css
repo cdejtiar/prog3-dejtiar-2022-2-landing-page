@@ -5,8 +5,7 @@
 }
 
 .fotoalbumes{
-    width:100%;
-    height: 100vh;
+    width:50%;
 }
 
 article{
@@ -17,7 +16,7 @@ article{
 
 article:nth-child(even){
     flex-direction: row-reverse;
-    margin: 1em 1em 1em 0em;
+    margin: 0em;
 }
 
 .textbtn{
@@ -35,7 +34,7 @@ button{
         text-transform: uppercase;
         border:2px white solid;
         color: white;
-        background-color: #ba1734;
+        background-color: black;
         text-align: center;
         cursor:pointer;
         padding:1em 2em;
@@ -44,11 +43,12 @@ button{
 
 .btn{
     font-size: 1em;
+    margin:1em;
 }
 
 button:hover{
-    border-color: #ba1734;
-    color:#ba1734;
+    border-color: black;
+    color:black;
     background-color: white;
     
     transition-property: background-color, color;

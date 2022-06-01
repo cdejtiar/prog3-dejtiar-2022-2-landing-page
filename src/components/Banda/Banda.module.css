@@ -11,6 +11,22 @@
     align-items: center;
 }
 
+.banda:nth-child(1){
+    background-color: #002F87;
+}
+
+.banda:nth-child(2){
+    background-color: #00613e;
+}
+
+.banda:nth-child(3){
+    background-color: #de5556;
+}
+
+.banda:nth-child(4){
+    background-color: #ffd700;
+}
+
 article h2{
     font-family: 'OneDirection';
     font-size: 5em;
@@ -59,7 +75,7 @@ article h2{
 }
 
 .a_banda{
-    margin:0em;
+    margin: 1em 0em 0em;
 }
 
 .icons{
@@ -67,11 +83,11 @@ article h2{
 }
 
 .redes{
-    margin:2em 0em;
-}
-
-.redes:hover{
-    background-color: black;
+    display: flex;
+    margin: 2em 0em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn2{

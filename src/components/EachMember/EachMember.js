@@ -11,22 +11,22 @@ const EachMember = ({src, alt, data_member, name, descrip, href1, href2, handleS
         <h2>{name}</h2>
         <p>{descrip}</p>
 
+        <div className={styles["redes"]}>
         <button className={styles["btn2"]} onClick={() => handleShowPopUp(true)}>Ver más</button>
-        <a className={styles["a_banda"]} href={href1}>
-          <button className={styles["redes"]}>
+        <a className={styles["a_banda"]} href={href1} target="_blank"
+          rel="noreferrer">
             <img className={styles["icons"]} src={twitter} alt="twitter"></img>
-          </button>
         </a>
 
-        <a className={styles["a_banda"]} href={href2}>
-          <button className={styles["redes"]}>
+        <a className={styles["a_banda"]} href={href2} target="_blank"
+          rel="noreferrer">
             <img
               className={styles["icons"]}
               src={instagram}
               alt="instagram"
             ></img>
-          </button>
         </a>
+        </div>
       </div>
     </article>
   );

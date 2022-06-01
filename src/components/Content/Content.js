@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Content.module.css';
-import hero from '../../assets/hero.jpg';
+import hero from '../../assets/hero.jpeg';
 import Features from '../Features/Features';
 import Banda from '../Banda/Banda';
 
@@ -10,7 +10,7 @@ const Content = ({handleShowPopUp}) => {
           <div>
             <img className={styles['hero']} src={hero} alt="Hero-One-Direction"></img>
             <h1 className={styles['title']}>One Direction</h1>
-            <h2 className={styles['subtitle']}>Festeja sus 12avo aniversario</h2>
+            
             <button className={styles['more']}>Ver más</button>
           </div>
 

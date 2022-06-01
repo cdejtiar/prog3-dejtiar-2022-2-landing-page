@@ -1,4 +1,3 @@
-import { Form } from "formik";
 import React from "react";
 import styles from "./PopUp.module.css";
 import Formulario from "../Form/Form";
@@ -10,9 +9,9 @@ const PopUp = ({ display, handleShowPopUp }) => {
         display ? styles["display"] : ""
       }`}
     >
-      <h2>¿Querés saber más? Suscribite a nuestro newsletter</h2>
+      <h2 className={styles["titulo"]}>¿Querés saber más sobre <span>One Direction</span>? <br></br> Suscribite a nuestro newsletter</h2>
       <Formulario handleShowPopUp={handleShowPopUp}/>
-      <button onClick={() => handleShowPopUp(false)}>Cerrar</button>
+      <button className={styles["btn4"]} onClick={() => handleShowPopUp(false)}>Cerrar</button>
     </div>
   );
 };
