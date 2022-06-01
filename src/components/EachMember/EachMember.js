@@ -3,7 +3,16 @@ import styles from "../Banda/Banda.module.css";
 import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 
-const EachMember = ({src, alt, data_member, name, descrip, href1, href2, handleShowPopUp}) => {
+const EachMember = ({
+  src,
+  alt,
+  data_member,
+  name,
+  descrip,
+  href1,
+  href2,
+  handleShowPopUp,
+}) => {
   return (
     <article className={styles["banda"]}>
       <img className={styles["fotos"]} src={src} alt={alt}></img>
@@ -12,20 +21,34 @@ const EachMember = ({src, alt, data_member, name, descrip, href1, href2, handleS
         <p>{descrip}</p>
 
         <div className={styles["redes"]}>
-        <button className={styles["btn2"]} onClick={() => handleShowPopUp(true)}>Ver más</button>
-        <a className={styles["a_banda"]} href={href1} target="_blank"
-          rel="noreferrer">
+          <a
+            className={styles["a_banda"]}
+            href={href1}
+            target="_blank"
+            rel="noreferrer"
+          >
             <img className={styles["icons"]} src={twitter} alt="twitter"></img>
-        </a>
+          </a>
 
-        <a className={styles["a_banda"]} href={href2} target="_blank"
-          rel="noreferrer">
+          <a
+            className={styles["a_banda"]}
+            href={href2}
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               className={styles["icons"]}
               src={instagram}
               alt="instagram"
             ></img>
-        </a>
+          </a>
+
+          <button
+            className={styles["btn2"]}
+            onClick={() => handleShowPopUp(true)}
+          >
+            Ver más
+          </button>
         </div>
       </div>
     </article>

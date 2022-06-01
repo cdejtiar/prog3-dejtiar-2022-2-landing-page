@@ -35,3 +35,10 @@ span{
 .btn4{
     font-size: 1em;
 }
+
+@media (max-width: 700px) {
+    .icons{
+        width:7%;
+        margin:0em 1em;
+    }
+}

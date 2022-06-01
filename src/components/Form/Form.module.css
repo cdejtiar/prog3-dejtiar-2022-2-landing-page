@@ -2,6 +2,7 @@ form{
     display:flex;
     flex-direction: column;
     margin:2em;
+    width:80%;
 }
 
 label{
@@ -21,6 +22,6 @@ input{
 }
 
 .btn3{
-    margin:1em 30em 0em 30em;
+    margin:1em 0em;
     font-size: 1em;
 }

@@ -75,7 +75,7 @@ article h2{
 }
 
 .a_banda{
-    margin: 1em 0em 0em;
+    margin: 1em 0em;
 }
 
 .icons{
@@ -92,4 +92,21 @@ article h2{
 
 .btn2{
     font-size:1em;
+    margin-top:1em;
+}
+
+@media (max-width: 700px) {
+    .banda{
+        display: block;
+        padding:1em;
+    }
+
+    .data_louis, .data_harry, .data_liam, .data_louis{
+        margin:0em;
+        padding:1em;
+    }
+
+    .redes{
+        margin:0em;
+    }
 }
