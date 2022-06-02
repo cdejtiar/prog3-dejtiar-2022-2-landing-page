@@ -28,16 +28,16 @@
 }
 
 .subtitle, .subtitle2, .subtitle3{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'OneDirection';
     font-size: 2em;
     top:15%;
+    text-transform: uppercase;
 }
 
 .subtitle2, .subtitle3{
-    font-size: 4em;
+    font-size: 6em;
     top:unset;
     text-align: center;
-    text-decoration: underline;
 }
 
 .sbutitle3{
