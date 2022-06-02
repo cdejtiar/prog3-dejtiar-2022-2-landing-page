@@ -82,3 +82,14 @@
         height: 50vh;
     }
 }
+
+@media (max-width: 500px) {
+    .title{
+        font-size: 4.3em;
+        top: 30%;
+    }
+
+    .more{
+        left: 35%;
+    }
+}
